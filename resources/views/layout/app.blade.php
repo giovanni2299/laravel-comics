@@ -6,10 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    @include('partials.header')
+    <header>
+        @include('partials.header')
 
-    <h1>Questa è la pagina di Layout</h1>
+    </header>
 
-    @include('partials.footer')
+    <main>
+        @yield('content')
+    </main>
+
+    
+
+    <footer>
+        @include('partials.footer')
+
+    </footer>
+
 </body>
 </html>
