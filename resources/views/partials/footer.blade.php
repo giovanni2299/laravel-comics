@@ -1,1 +1,1 @@
-<h1>Questo è il Footer</h1>
+<h1 class="text-center p-3">Questo è il Footer</h1>
