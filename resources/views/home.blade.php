@@ -1,4 +1,4 @@
 @extends('layout.app')
 @section('content')
-<h1>Home</h1>
+<h1 class="text-center p-3">Home</h1>
 @endsection
